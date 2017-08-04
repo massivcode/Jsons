@@ -1,0 +1,273 @@
+{
+    "id": "Unique_Sword_1H_014_x1",
+    "name": "궤멸자",
+    "icon": "unique_sword_1h_014_x1_demonhunter_male",
+    "displayColor": "orange",
+    "tooltipParams": "item/doombringer",
+    "requiredLevel": 29,
+    "itemLevel": 31,
+    "stackSizeMax": 0,
+    "bonusAffixes": 3,
+    "bonusAffixesMax": 3,
+    "accountBound": true,
+    "flavorText": "강력한 전사의 고향 땅이 갈라질 때 신비의 검이 그의 앞에 나타나, 과거의 잿더미 속에서 새로운 시대를 이끌어 내리라.",
+    "typeName": "전설 도검",
+    "type": {
+        "twoHanded": false,
+        "id": "Sword"
+    },
+    "damageRange": "무기 공격력 65~151",
+    "dps": {
+        "min": 151.19999742507935,
+        "max": 151.19999742507935
+    },
+    "attacksPerSecond": {
+        "min": 1.399999976158142,
+        "max": 1.399999976158142
+    },
+    "attacksPerSecondText": "초당 공격 횟수 1.40",
+    "minDamage": {
+        "min": 65.0,
+        "max": 65.0
+    },
+    "maxDamage": {
+        "min": 151.0,
+        "max": 151.0
+    },
+    "slots": ["left-hand", "follower-left-hand", "right-hand", "follower-right-hand"],
+    "attributes": {
+        "primary": [{
+            "color": "blue",
+            "text": "물리 기술로 주는 피해 15–20% 증가",
+            "affixType": "utility"
+        }],
+        "secondary": [],
+        "passive": []
+    },
+    "attributesRaw": {
+        "Damage_Weapon_Min#Physical": {
+            "min": 65.0,
+            "max": 65.0
+        },
+        "Durability_Max": {
+            "min": 500.0,
+            "max": 1000.0
+        },
+        "Damage_Dealt_Percent_Bonus#Physical": {
+            "min": 0.15,
+            "max": 0.2
+        },
+        "Durability_Cur": {
+            "min": 500.0,
+            "max": 1000.0
+        },
+        "Damage_Weapon_Delta#Physical": {
+            "min": 86.0,
+            "max": 86.0
+        },
+        "Attacks_Per_Second_Item": {
+            "min": 1.399999976158142,
+            "max": 1.399999976158142
+        }
+    },
+    "randomAffixes": [{
+        "oneOf": [{
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "비전 무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Min#Arcane": {
+                    "min": 32.0,
+                    "max": 39.0
+                },
+                "Damage_Weapon_Delta#Arcane": {
+                    "min": 7.0,
+                    "max": 10.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "독 무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Delta#Poison": {
+                    "min": 7.0,
+                    "max": 10.0
+                },
+                "Damage_Weapon_Min#Poison": {
+                    "min": 32.0,
+                    "max": 39.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "번개 무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Min#Lightning": {
+                    "min": 32.0,
+                    "max": 39.0
+                },
+                "Damage_Weapon_Delta#Lightning": {
+                    "min": 7.0,
+                    "max": 10.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "신성 무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Delta#Holy": {
+                    "min": 7.0,
+                    "max": 10.0
+                },
+                "Damage_Weapon_Min#Holy": {
+                    "min": 32.0,
+                    "max": 39.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "냉기 무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Min#Cold": {
+                    "min": 32.0,
+                    "max": 39.0
+                },
+                "Damage_Weapon_Delta#Cold": {
+                    "min": 7.0,
+                    "max": 10.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "화염 무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Min#Fire": {
+                    "min": 32.0,
+                    "max": 39.0
+                },
+                "Damage_Weapon_Delta#Fire": {
+                    "min": 7.0,
+                    "max": 10.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "무기 공격력 +(32–39)~(39–49)",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Weapon_Bonus_Delta_X1#Physical": {
+                    "min": 7.0,
+                    "max": 10.0
+                },
+                "Damage_Weapon_Bonus_Min_X1#Physical": {
+                    "min": 32.0,
+                    "max": 39.0
+                }
+            }
+        }]
+    }, {
+        "oneOf": [{
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "민첩 +128–163",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Dexterity_Item": {
+                    "min": 128.0,
+                    "max": 163.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "힘 +128–163",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Strength_Item": {
+                    "min": 128.0,
+                    "max": 163.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "지능 +128–163",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Intelligence_Item": {
+                    "min": 128.0,
+                    "max": 163.0
+                }
+            }
+        }]
+    }],
+    "gems": [],
+    "socketEffects": [],
+    "craftedBy": [],
+    "seasonRequiredToDrop": -1,
+    "isSeasonRequiredToDrop": false,
+    "description": null,
+    "blockChance": "방패막기 확률 +0.0%"
+}
