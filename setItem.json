@@ -1,0 +1,206 @@
+{
+    "id": "Unique_Helm_008_x1",
+    "name": "불멸왕의 승리",
+    "icon": "unique_helm_008_x1_demonhunter_male",
+    "displayColor": "green",
+    "tooltipParams": "item/immortal-kings-triumph",
+    "requiredLevel": 60,
+    "itemLevel": 60,
+    "stackSizeMax": 0,
+    "bonusAffixes": 4,
+    "bonusAffixesMax": 4,
+    "accountBound": true,
+    "flavorText": "라키스가 이 세상에 나타나기 오래 전, 야만용사들이 서부 대륙 전역을 거닐던 시대에, 워루스크라는 한 남자가 야만 부족을 통일했습니다. 잠깐 동안이나마 야만용사들에게 왕이 존재했던 것입니다.",
+    "typeName": "세트 투구",
+    "type": {
+        "twoHanded": false,
+        "id": "Helm"
+    },
+    "damageRange": "무기 공격력 0~0",
+    "armor": {
+        "min": 397.0,
+        "max": 471.0
+    },
+    "slots": ["head"],
+    "attributes": {
+        "primary": [],
+        "secondary": [],
+        "passive": []
+    },
+    "attributesRaw": {
+        "Armor_Item": {
+            "min": 397.5,
+            "max": 471.5
+        },
+        "Durability_Max": {
+            "min": 500.0,
+            "max": 1000.0
+        },
+        "Durability_Cur": {
+            "min": 500.0,
+            "max": 1000.0
+        },
+        "Sockets": {
+            "min": 1.0,
+            "max": 1.0
+        }
+    },
+    "randomAffixes": [{
+        "oneOf": [{
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "민첩 +330–524",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Dexterity_Item": {
+                    "min": 330.0,
+                    "max": 524.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "힘 +330–524",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Strength_Item": {
+                    "min": 330.0,
+                    "max": 524.0
+                }
+            }
+        }, {
+            "attributes": {
+                "primary": [{
+                    "color": "blue",
+                    "text": "지능 +330–524",
+                    "affixType": "default"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Intelligence_Item": {
+                    "min": 330.0,
+                    "max": 524.0
+                }
+            }
+        }]
+    }],
+    "gems": [],
+    "socketEffects": [],
+    "set": {
+        "items": [{
+            "id": "Unique_Gloves_008_x1",
+            "name": "불멸왕의 무쇠",
+            "icon": "unique_gloves_008_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-irons"
+        }, {
+            "id": "Unique_Mighty_2H_010_x1",
+            "name": "불멸왕의 바위 격파기",
+            "icon": "unique_mighty_2h_010_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-boulder-breaker"
+        }, {
+            "id": "Unique_BarbBelt_009_x1",
+            "name": "불멸왕의 부족 결속",
+            "icon": "unique_barbbelt_009_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-tribal-binding"
+        }, {
+            "id": "Unique_Boots_012_x1",
+            "name": "불멸왕의 성큼걸음",
+            "icon": "unique_boots_012_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-stride"
+        }, {
+            "id": "Unique_Helm_008_x1",
+            "name": "불멸왕의 승리",
+            "icon": "unique_helm_008_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-triumph"
+        }, {
+            "id": "Unique_Chest_013_x1",
+            "name": "불멸왕의 영원한 통치",
+            "icon": "unique_chest_013_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-eternal-reign"
+        }, {
+            "id": "P2_Unique_Pants_02",
+            "name": "불멸왕의 위상",
+            "icon": "p2_unique_pants_02_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/immortal-kings-stature"
+        }],
+        "name": "불멸왕의 부름",
+        "ranks": [{
+            "required": 2,
+            "attributes": {
+                "primary": [],
+                "secondary": [],
+                "passive": [{
+                    "color": "orange",
+                    "text": "선조의 귀환이 소환된 선조가 죽을 때까지 유지됨",
+                    "affixType": "default"
+                }]
+            },
+            "attributesRaw": {
+                "Item_Power_Passive#ItemPassive_Unique_Ring_578_x1": {
+                    "min": 1.0,
+                    "max": 1.0
+                }
+            }
+        }, {
+            "required": 4,
+            "attributes": {
+                "primary": [],
+                "secondary": [],
+                "passive": [{
+                    "color": "orange",
+                    "text": "적을 공격해 분노를 10씩 소비할 때마다 광전사의 진노와 선조의 귀환의 재사용 대기시간 3초 감소",
+                    "affixType": "default"
+                }]
+            },
+            "attributesRaw": {
+                "Item_Power_Passive#P2_ItemPassive_Unique_Ring_027": {
+                    "min": 3.0,
+                    "max": 3.0
+                }
+            }
+        }, {
+            "required": 6,
+            "attributes": {
+                "primary": [],
+                "secondary": [],
+                "passive": [{
+                    "color": "orange",
+                    "text": "광전사의 진노와 선조의 귀환이 모두 활성화된 동안 공격력 400% 증가",
+                    "affixType": "default"
+                }]
+            },
+            "attributesRaw": {
+                "Item_Power_Passive#P2_ItemPassive_Unique_Ring_048": {
+                    "min": 4.0,
+                    "max": 4.0
+                }
+            }
+        }],
+        "slug": "immortal-kings-call"
+    },
+    "setItemsEquipped": ["Unique_Helm_008_x1"],
+    "craftedBy": [],
+    "seasonRequiredToDrop": -1,
+    "isSeasonRequiredToDrop": false,
+    "description": null,
+    "blockChance": "방패막기 확률 +0.0%"
+}
